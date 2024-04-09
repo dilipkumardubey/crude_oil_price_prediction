@@ -118,14 +118,14 @@ def load_bin(path_to_binary: Path) -> Any:
         raise e
     
 @ensure_annotations
-def get_size(path: Path) -> str:
+def get_size(path_to_file: Path) -> str:
     """Returns size of given file
 
     Args:
-        path (Path): path of a given file
+        path_to_file (Path): path of a given file
 
     Returns:
         str: size in KB
     """
-    size_in_kb = round(os.path.getsize(path)1024/)
+    size_in_kb = round(os.path.getsize(path_to_file)/1024)
     return f"~{size_in_kb} KB"
