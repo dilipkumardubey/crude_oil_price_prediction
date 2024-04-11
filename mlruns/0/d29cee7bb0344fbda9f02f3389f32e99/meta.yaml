@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Crude_Oil_Price_Prediction____Color%20Sketch/Crude_Oil_Price_Prediction/crude_oil_price_prediction/mlruns/0/d29cee7bb0344fbda9f02f3389f32e99/artifacts
+end_time: 1712850538164
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d29cee7bb0344fbda9f02f3389f32e99
+run_name: marvelous-ape-596
+run_uuid: d29cee7bb0344fbda9f02f3389f32e99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712850534758
+status: 3
+tags: []
+user_id: '91807'

@@ -3,6 +3,7 @@ from mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipe
 from mlProject.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from mlProject.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from mlProject.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from mlProject.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 # # Check for custom log. This will be printed everytime when main.py will be executed.
 # logger.info("Welcome to our custom log.")
@@ -44,13 +45,24 @@ except Exception as e:
     logger.exception(e)
     raise e
 
-
 # Model Trainer stage
 STAGE_NAME = "Model Trainer stage"
 
 try:
     logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
     obj = ModelTrainerTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>>>> stage {STAGE_NAME} completed <<<<<<<<\n\nX=================X")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+# Model Evaluation stage
+STAGE_NAME = "Model Evaluation stage"
+
+try:
+    logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
+    obj = ModelEvaluationTrainingPipeline()
     obj.main()
     logger.info(f">>>>>>>> stage {STAGE_NAME} completed <<<<<<<<\n\nX=================X")
 except Exception as e:

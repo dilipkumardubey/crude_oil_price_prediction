@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Crude_Oil_Price_Prediction____Color%20Sketch/Crude_Oil_Price_Prediction/crude_oil_price_prediction/mlruns/0/4ea0cee71983453e8130a65e95d29e21/artifacts
+end_time: 1712852180895
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ea0cee71983453e8130a65e95d29e21
+run_name: bedecked-horse-555
+run_uuid: 4ea0cee71983453e8130a65e95d29e21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712852178005
+status: 3
+tags: []
+user_id: '91807'
