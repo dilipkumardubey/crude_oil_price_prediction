@@ -1,6 +1,12 @@
+
+import os
 from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.model_evaluation import ModelEvaluation
 from mlProject import logger
+
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/dilipkumardubey/crude_oil_price_prediction.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "dilipkumardubey"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "cf8ece7bc6cee01c3cc542f6cbd79e242230c771"
 
 STAGE_NAME = "Model Evaluation stage"
 

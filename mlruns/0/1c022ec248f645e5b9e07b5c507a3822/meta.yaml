@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Crude_Oil_Price_Prediction____Color%20Sketch/Crude_Oil_Price_Prediction/crude_oil_price_prediction/mlruns/0/1c022ec248f645e5b9e07b5c507a3822/artifacts
+end_time: 1712943799655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c022ec248f645e5b9e07b5c507a3822
+run_name: monumental-lark-867
+run_uuid: 1c022ec248f645e5b9e07b5c507a3822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712943796854
+status: 3
+tags: []
+user_id: '91807'
