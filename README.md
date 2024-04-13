@@ -20,35 +20,35 @@ This repository contains the code of price prediction of Crude Oil Price (West T
 
 Clone the repository
 
-'''bash
-https://github.com/Swati-Dilip-Dubey/crude_oil_price_prediction.git
-'''
+```bash
+https://github.com/dilipkumardubeyy/crude_oil_price_prediction.git
+```
 ### STEP 01- Create a conda environment after opening the repository
 
-'''bash
+```bash
 conda create -n mlproj python=3.8 -v
-'''
+```
 
-'''bash
+```bash
 conda activate mlproj
-'''
+```
 
 
 ### STEP 02- install the requirements
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 
-'''bash
+```bash
 # Finally run the following command
 python app.py
-'''
+```
 
 Now,
-'''bash
+```bash
 open up your local host and post
-'''
+```
 
 
 
@@ -70,7 +70,7 @@ python script.py
 
 Run this to export as env variables:
 
-'''bash
+```bash
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/dilipkumardubey/crude_oil_price_prediction.mlflow
 
@@ -78,4 +78,4 @@ export MLFLOW_TRACKING_USERNAME=dilipkumardubey
 
 export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
-'''
+```
