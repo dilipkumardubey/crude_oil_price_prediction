@@ -79,3 +79,88 @@ export MLFLOW_TRACKING_USERNAME=dilipkumardubey
 export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
 ```
+
+
+
+# AWS-CICD-Deployment-with-Github-Actions
+
+## 1. Login to AWS console.
+
+## 2. Create IAM USER for deployment
+
+    # with specifiv access
+
+    1. EC2 Access: It is virtual machine
+
+    2. ECR: Elastic Container Registry to save your docker image in AWS.
+
+    
+    # Description: About the deployment
+
+    1. Build Docker Image of the source code
+
+    2. Push your Docker Image to ECR.
+
+    3. Launch your EC2.
+
+    4. Pull your Image from ECR in EC2.
+
+    5. Launch your Docker Image in EC2.
+
+    # Policy:
+
+    1. AmazonEC2ContainerRegistryFullAccess
+
+    2. AmazonEC2FullAccess
+
+
+## 3. Create ECR repo to store/save Docker Image
+    - Save the URI: 
+
+
+## 4. Create EC2 Machine (Ubuntu)
+
+## 5. Open EC# and Install Docker in EC2 Machine:
+
+
+    # Optional
+
+    sudo apt-get update -y
+
+    sudo apt-get upgrade
+
+    # Required
+
+    curl -fsSL https://get.docker.com -o get-docker.sh
+
+    sudo sh get-docker.sh
+
+    sudo usermod -aG docker ubuntu
+
+    newgrp docker
+
+## 6. Configure EC2 as self-hosted runner:
+    setting >> actions >> runner >>new self hosted runner >> choose os >>then run command one by one
+
+
+## 7. Setup Github scerets:
+
+    AWS_ACCESS_KEY_ID = 
+
+    AWS_SECRET_ACCESS_KEY = 
+
+    AWS_REGION = us-east-1
+
+    AWS_ECR_LOGIN_URI = 
+
+    ECR_REPOSITORY_NAME = simple-app
+
+
+
+
+## About MLFlow:
+MLFLOW
+
+    - Its Prodcution Grade
+    - Trace all of your experiments
+    - Logginf & Tagging your model
