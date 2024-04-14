@@ -147,7 +147,7 @@ export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
     AWS_ACCESS_KEY_ID = 
 
-    AWS_SECRET_ACCESS_KEY = <your-aws-secret-access-key>
+    AWS_SECRET_ACCESS_KEY = 
 
     AWS_REGION = us-east-1
 
