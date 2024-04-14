@@ -115,7 +115,7 @@ export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
 
 ## 3. Create ECR repo to store/save Docker Image
-    - Save the URI: 
+    - Save the URI: 645920365058.dkr.ecr.us-west-1.amazonaws.com/crude_oil_price_prediction
 
 
 ## 4. Create EC2 Machine (Ubuntu)
@@ -151,7 +151,7 @@ export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = 
+    AWS_ECR_LOGIN_URI = 645920365058.dkr.ecr.us-west-1.amazonaws.com/crude_oil_price_prediction
 
     ECR_REPOSITORY_NAME = simple-app
 
