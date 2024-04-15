@@ -153,7 +153,7 @@ export MLFLOW_TRACKING_PASSWORD=cf8ece7bc6cee01c3cc542f6cbd79e242230c771
 
     AWS_ECR_LOGIN_URI = 645920365058.dkr.ecr.us-west-1.amazonaws.com/crude_oil_price_prediction
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = crude_oil_price_prediction
 
 
 
